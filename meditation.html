@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+
+        }
+
+        .wrapper {
+            background-color: darkgray;
+        }
+
+        .Meditation {
+            width: 100%;
+            height: 100vh;
+            background: url('https://www.beautycookskisses.com/wp-content/uploads/2019/04/sunrise-meditation.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 200px 0px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .med-col{
+            color: white;
+            padding: 0 40px;
+        }
+        .med-col ol{
+           margin-top:15px ;
+        }
+        .med-col ol li{
+           list-style: none;
+            padding: 8px 10px;
+            margin: 7px 0;
+            background-color: teal;
+            border-radius: 10px;
+        }
+
+        .Meditation h2 {
+            font-size: 42px;
+            color: white;
+            font-weight: 800;
+            margin: 10px 80px;
+        }
+
+        .Meditation p {
+            font-size: 20px;
+            color: white;
+            margin: 10px 80px;
+
+        }
+        .Meditation span{
+            color: rgb(100, 181, 181);
+        }
+
+        .btn {
+            padding: 10px;
+            background-color: teal;
+            color: white;
+            border-radius: 5px;
+            margin: 10px 80px;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: rgb(4, 46, 46);
+        }
+
+        .m-content {
+            margin-top: 50px;
+
+        }
+
+        .m-content h2 {
+            font-size: 42px;
+            color:teal;
+            font-weight: 800;
+            text-align: center;
+            text-shadow: 5px 5px 5px rgb(30, 109, 109);
+
+        }
+
+        .m-row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: auto;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 50px;
+        }
+
+        .m-col {
+            width: 40%;
+            background-color: lightgray;
+            padding: 20px 30px;
+            box-shadow: 5px 5px 5px grey;
+            border-radius: 10px;
+        }
+
+        /* .m-col span{ 
+            color: white;
+            background-color: rgb(157, 6, 97);
+            border-radius: 50%;
+            padding: 15px;
+            margin:10px 0;
+        } */
+
+        .m-col h4 {
+            font-size: 28px;
+            color: rgb(55, 53, 53);
+            font-weight: 600;
+            text-align: center;
+            padding: 7px 0;
+        }
+
+        .m-col p {
+            font-size: 20px;
+            text-align: justify;
+            padding: 7px 0;
+
+        }
+
+        .m-video {
+            margin-top: 100px;
+            margin-left: 290px;
+        }
+    
+        .m-video h4{
+            color: white;
+            font-size: 24px;
+            margin: 20px 180px;
+        }
+
+        .m-video iframe{
+            border: 5px solid darkgrey;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="Meditation">
+            <div class="med-col">
+            <h2>Meditation</h2>
+            <p>Mediation applies the <span> brakes to the mind.</span></p>
+            <button class="btn" onclick="myfunction()">Explore More</button>
+        </div>
+            <div class="med-col">
+                <h1>Steps To Meditate</h1>
+                <ol>
+                <li>Take a seat. Find place to sit that feels calm and quiet to you.</li>
+                <li>Set a time limit.</li>
+                <li>Gently close your eyes.</li>
+                <li>Breathe deeply.</li>
+                <li>Take a deep inhale, expanding your belly, and then exhale slowly.</li>
+                <li>Slowly scan your body, and notice any sensations.</li>
+                <li>Be aware of any thoughts you are having.</li>
+                <li>When your mind wanders, focus on your breath.</li>
+                <li>Gently open your eyes. </li>
+            </ol>
+            </div>
+
+        </div>
+        
+        <div class="m-content">
+            <h2>Benifits Of Mediation</h2>
+            <div class="m-row">
+                <div class="m-col">
+                    <!-- <span>1</span> -->
+                    <h4> Improved cardiac health</h4>
+                    <p> Meditation is known to lower blood pressure by easing stress and reducing strain on the heart.
+                        Countless studies have shown that regular meditation can slightly lower blood pressure or reduce
+                        the need for blood pressure medications. By lowering blood pressure, you also reduce the risk of
+                        a heart attack and stroke.</p>
+
+                </div>
+                <div class="m-col">
+                    <h4> Greater Sense of Self-Awareness</h4>
+                    <p>Meditation allows us to mentally take inventory of our bodies. Much like the physical practice of yoga, meditation helps you establish a stronger connection
+                        between mind and body. Through this greater sense of self-awareness, we cultivate present moment
+                        awareness which allows us to remain present, grounded, and focused in all aspects and every
+                        moment of our lives.</p>
+
+                </div>
+                <div class="m-col">
+                    <h4> Reduce Stress and Anxiety</h4>
+                    <p>Obsessing about the past or future can often lead to unhappiness. We can only control what is
+                        happening now which is why there is no reason to be caught up in the past or fixate on the future.
+                        Our life is always in the now. Meditation is the anchor to help you stay there. This is the key
+                        to reducing stress, gaining control over your anxiety, and ultimately living a more stress-free
+                        and happy life.</p>
+
+                </div>
+                <div class="m-col">
+                    <h4> Increase Mental Clarity and Focus</h4>
+                    <p>If we are mindful and focused on the present moment, we are fully engaged in present action.
+                        Think of how amazing all your work would be if you were completely focused on it, and not caught
+                        up in the chatter of your mind, or impulsively checking your cell phone or social media every
+                        five minutes. Meditation helps us unplug and tune in to what is going on beneath the surface of
+                        our thoughts. Over time, this becomes a subconscious habit that results in increased mental clarity and focus,
+                        and your memory and mental acuity will improve too.</p>
+
+                </div>
+                <div class="m-col">
+                    <h4> Emotional Intelligence</h4>
+                    <p>When we have time to sit without any distractions, we are able to get more in touch with our
+                        emotions. We may realize the root cause of our unrest or worry. Regular meditation helps us
+                        recognize our emotions as fleeting, but also allows us the chance to sit with them instead of
+                        avoiding or being afraid of facing our emotions. As a result, you deepen your emotional
+                        intelligence and ability to recognize and work through emotional issues as they arise, which
+                        impacts your relationships and mind state in a positive way.</p>
+
+                </div>
+                <div class="m-col">
+                    <h4> Retrain your brain</h4>
+                    <p>One of the supreme benefits of meditation is that it holds the power to retrain your
+                        brain. Yes, your brain is trainable. As the brain is used, it tends to grow. Meditation can help
+                        the brain learn to manage its own system. Consider it as car-servicing. Meditation redirects our
+                        minds back to think more calmly and clearly focus when presented with a
+                        stressor when we are not meditating, rather than letting our impulsive impulses drive us.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="m-video">
+            <h4>Here, you can watch the tutorial for meditation</h4>
+            <iframe width="800" height="400" src="https://www.youtube.com/embed/inpok4MKVLM"
+                title="5-Minute Meditation You Can Do Anywhere" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+        function myfunction() {
+            window.scrollTo({
+                top: 700,
+                behavior: "smooth"
+            });
+        }
+
+    </script>
+
+</body>
+
+</html>

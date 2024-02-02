@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+    body{
+      background-color: rgb(160, 206, 236);
+    }
+     .card-container {
+            display: flex;
+            justify-content: flex-start;
+            padding: 15px 60px;
+            gap: 20px;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+    .card {
+      border: 2px solid black;
+      transition: transform 0.3s;
+      position: relative;
+      background-color: rgb(235, 230, 240);
+    }
+
+    .card.full-card {
+      position: absolute;
+      top: 25%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      width: 200%;
+      max-width: 800px;
+    }
+    .card.zoomed {
+            transform: scale(1.8);
+            
+        }
+        h1{
+          text-align: center;
+          font-size: 60px;
+          background-color: yellowgreen;
+          padding: 10px;
+        }
+  </style>
+</head>
+<body>
+  <h1>Cardio Exercises</h1>
+<section class="card-container">
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/f3/0f/e9/f30fe940704b9f5e35ce56d4c2030c44.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Jumping Jack</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/06/dd/ab/06ddaba445f28cfba01fdca4f0d36286.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bicycle Crunches</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/40/c3/07/40c307a23cde01af771dfb54a83f8e26.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Kick Crunches</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/47/e1/fa/47e1fae1e52c0c60d47ea9aef860c084.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">MOuntain Climber</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/30/04/1d/30041df56a924326c7194762a17f52a5.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Crunches</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/f8/de/86/f8de861a5572e68f920a44bd42778b0c.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Russian Twist</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/05/47/2e/05472e1d88c5e909981d86cdadfd0843.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bear Walk</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/52/cd/4f/52cd4fdfb5b805fc773bfc5b142bc577.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Side Crunches</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/c1/9f/2c/c19f2c2bac0ca09f2381fb8281c8d1f0.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Hign Knee</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/1b/6b/ee/1b6bee254eb24f6b60c61b24ad6a9806.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Windshield Wipers</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/2a/90/8a/2a908a9a9c8a8f798130a73ff52b79a1.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Forward Jump Shuffle Back</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/5e/ec/cf/5eeccf7ad22e9b76d6d85eb0cebdbf01.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Fire Hidrant</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/ea/e1/17/eae117a1767b4aa3b71cbe6b0460622f.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Crab Kicks</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/50/c3/3c/50c33c1db76aee45c3b9d153f26c4a25.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Prone Back Extension</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.pinimg.com/originals/f6/3c/c6/f63cc6dd10ff8bae6feaaf5cf17d516e.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">But Kicks</h5>
+      <button class="btn btn-primary start-btn">Start</button>
+    </div>
+  </div>
+</section>
+<script>
+  const cards = document.querySelectorAll('.card');
+  // Function to start the timer
+  function startTimer() {
+    let timeLeft = 30; // Set the initial time in seconds
+    // Store the reference to the card and buttons
+    const card = this.closest('.card');
+    const startButton = this;
+    startButton.disabled = true;
+
+    card.classList.add('zoomed');
+    // Toggle the full-card class on the selected card
+    card.classList.toggle('full-card');
+    // Start the countdown interval
+    const countdownInterval = setInterval(() => {
+      timeLeft--;
+      if (timeLeft > 0) {
+        // Update the button text with the remaining time
+        startButton.innerText = `${timeLeft} sec`;
+      } else {
+        // When the countdown is finished
+        clearInterval(countdownInterval);
+        startButton.innerText = 'Start'; // Reset the button text
+        startButton.disabled = false; // Enable the start button
+        card.classList.toggle('full-card'); // Toggle the full-card class to restore normal card display
+        card.classList.remove('zoomed');
+      }
+    }, 1000); // Update the countdown every 1 second
+  }
+  // Attach click event listeners to the start buttons
+  const startButtons = document.querySelectorAll('.start-btn');
+startButtons.forEach(button => {
+button.addEventListener('click', startTimer);
+});
+</script>
+
+</body>
+</html>
